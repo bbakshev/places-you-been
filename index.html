@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Places You've Been</title>
+  <script src="js/scripts.js"></script>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <h1>Places You've Been</h1>
+  <p>List of destination to inspire your next adventure</p>
+  <div class="item-center">
+  <div class="column">
+        <img src="img/london.jpg" alt="london">
+      <div class="color">
+        <button id ="london-btn" type="submit">London, UK</button>
+      </div>
+    </div>
+    <div class="column">
+        <img src="img/phuket.jpg" alt="phuket">
+      <div class="color">
+        <button id ="phuket-btn" type="submit">Phuket, Thailand</button>
+      </div>
+    </div>
+    <div class="column">
+        <img src="img/paris.jpg" alt="paris">
+      <div class="color">
+        <button id ="paris-btn" type="submit">Paris, France</button>
+      </div>
+    </div>
+  </div>
+  <div id="destination-details" class="hidden">
+    <h2>Here's the information about your selected city:</h2>
+    <p><strong>Landmark: </strong><span class="landmark"></span></p>
+    <p><strong>Time of the Year: </strong><span class="time-of"></span></p>
+    <p><strong>Things to Do: </strong><span class="things-to-do"></span></p>
+    <p><strong>Important Notes: </strong><span class="notes"></span></p>
+  </div>
+</body>
+</html>

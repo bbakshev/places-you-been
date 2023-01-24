@@ -1,0 +1,30 @@
+/* .hidden {
+  display: none;
+} */
+
+.column {
+  width: 300px;
+  float: left;
+  margin: 5px;
+  display: block;
+}
+
+.color {
+  background-color: azure;
+  padding: 10px;
+  text-align: center;
+}
+
+img {
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+
+.item-center {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 4px;
+  align-items: center;
+  justify-items: center;
+}
